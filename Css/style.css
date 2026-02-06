@@ -9,7 +9,7 @@
 body {
     background-color: #fff8f4;
     font-family: "Poppins";
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 /* navigation bar */
@@ -862,9 +862,9 @@ form input {
 form input:focus {
     outline: none;
     border: 1px solid rgb(131, 106, 43);
-    padding-top: 28px;
+    padding-top: 8px;
     box-shadow: 0 0 0 2px rgba(111, 58, 29, 0.2);
-    font-size: 35px;
+    font-size: 15px;
 }
 
 form input::placeholder {
@@ -891,7 +891,7 @@ form textarea:focus {
     border: 1px solid rgb(131, 106, 43);
     padding-top: 12px;
     box-shadow: 0 0 0 2px rgba(111, 58, 29, 0.2);
-    font-size: 35px;
+    font-size: 15px;
 }
 
 form button {
