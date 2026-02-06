@@ -395,12 +395,12 @@
 
     form textarea{
         height: 270px;
-        padding: 21px;
-        font-size: 48;
+        padding: 24px;
+        font-size: 43px;
     }
 
     form textarea::placeholder{
-        font-size: 48px;
+        font-size: 43px;
     }
 
     form textarea:focus{
@@ -528,6 +528,10 @@
         /* position: relative; */
     }
 
+    .spc-card{
+        margin-top: 19px;
+        margin-bottom: 17px;
+    }
     .bdy-card{
         /* position: relative; */
     }
