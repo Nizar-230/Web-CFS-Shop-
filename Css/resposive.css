@@ -170,7 +170,7 @@
     /* about responsive */
     #about-us {
         width: 400%;
-        min-height: 250vh;
+        min-height: 350vh;
     }
 
     .title {
@@ -374,7 +374,7 @@
 
     form input{
         width: 599px;
-        height: 60px;
+        height: 80px;
         padding: 34px;
     }
 
@@ -383,23 +383,27 @@
     }
 
     form input::placeholder{
-        font-size: 28px;
+        font-size: 35px;
         position: relative;
         top: 4px;
     }
 
+    form input::focus{
+        font-size: 37px;
+    }
+
     form textarea{
-        height: 170px;
+        height: 200px;
         padding: 21px;
     }
 
     form textarea::placeholder{
-        font-size: 21px;
+        font-size: 34px;
     }
 
     form button{
-        font-size: 34px;
-        padding: 10px;
+        font-size: 38px;
+        padding: 14px;
     }
 
     /* Responsive Galery */
@@ -419,7 +423,8 @@
         gap: 30px;
         width: 150px;
        position: relative;
-       right: 280px;
+       right: 399px;
+
     }
 
     .main-galery{
@@ -437,7 +442,7 @@
     }
 
     .Gallery img{
-        width: 350px;
+        width: 490px;
     }
     /* Responsive Footer */
     footer{
@@ -468,42 +473,141 @@
         right: 230px;
     }
     .Menu-footer h3{
-        font-size: 52px;
+        font-size: 59px;
     }
 
     .Menu-footer a{
-        font-size: 39px;
+        font-size: 49px;
     }
 
 
     .Contact-Footer {
         position: relative;
-        right: 110px;
+        right: 10px;
         padding: 50px 0px;
     }
     .Contact-Footer h3{
-        font-size: 52px;
+        font-size: 59px;
     }
 
     .contact-foot i {
-        font-size: 39px;
-        padding: 14px 0px;
+        font-size: 51px;
+        padding: 19px 0px;
     }
 
     .dsk{
-        font-size: 30px;
+        font-size: 45px;
     }
 
     .Follow-Us-Footer{
         position: relative;
-        right: 190px;
+        right: 170px;
     }
     .Follow-Us-Footer h3{
         font-size: 52px;
     }
 
     .Follow-Us-Footer i {
-        font-size: 41px;
-        padding: 19px
+        font-size: 53px;
+        padding: 29px
+    }
+
+    /* responsive choping-card */
+    .container-spc{
+        width: 65%;
+        height: 500vh;
+        /* position: relative; */
+    }
+
+    .bdy-card{
+        /* position: relative; */
+    }
+
+    .img-spc img{
+        height: 13rem;
+        
+        right: 85%;
+    }
+
+    .name-menu{
+      left :44%;
+    }
+
+    .btn-qty{
+        margin-top: 60px;
+        width:  203px;
+        min-height: 67px;
+    }
+
+    .bdy-card::after{
+        width: 93%;
+        height: 7px;
+    }
+
+    .btn-plus{
+        width: 72px;
+        padding: 2px;
+        height: 69px;
+    }
+
+    .btn-plus i{
+        font-size: 39px;
+    }
+
+    .btn-minus{
+        width: 72px;
+        height: 69px;
+        padding: 2px;
+    }
+
+    .btn-minus i{
+        font-size: 29px;
+    }
+
+    .qty-amount{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .number-qty{
+        font-size: 39px;
+        /* padding: 0px 20px; */
+    }
+
+    .name-menu h3{
+        font-size: 49px;
+        margin-bottom: 5px;
+    }
+
+    .price{
+        font-size: 36px;
+        position: relative;
+        left: 10px;
+    }
+
+    .clear-card i{
+       font-size: 34px;
+       position: relative;
+       bottom: 7px;
+    }
+
+    .clear-card{
+        top: 60px;
+       padding: 21px;
+        height: 62px;
+    }
+
+    .result-price{
+        font-size: 38px;
+    }
+
+    .btn-checkout{
+        padding: 20px;
+        font-size: 37px;
+    }
+
+    .close-spc{
+        font-size: 50px;
+        padding-left: 34px;
+        padding-top: 27px;
     }
 }

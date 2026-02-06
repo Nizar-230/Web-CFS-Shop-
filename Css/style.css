@@ -9,7 +9,7 @@
 body {
     background-color: #fff8f4;
     font-family: "Poppins";
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* navigation bar */
@@ -155,7 +155,7 @@ nav ul li a:hover {
     z-index: 999;
     transition: 0.5s ease-in-out;
     transform: translateX(100%);
-
+   
 }
 
 .active-spc{
@@ -169,7 +169,7 @@ nav ul li a:hover {
 
 .bdy-card::after {
     content: '';
-    width: 87%;
+    width: 91%;
     display: inline-block;
     height: 3px;
     background-color: #81482f;
@@ -265,6 +265,10 @@ nav ul li a:hover {
     left: 180px;
 
 }
+
+/* .img-spc{
+    position: relative;
+} */
 
 .img-spc img {
     height: 80px;
@@ -852,14 +856,15 @@ form input {
     border: 2px solid #95694a;
     background-color: #d8a683;
     border-radius: 3px;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 form input:focus {
     outline: none;
     border: 1px solid rgb(131, 106, 43);
-    padding-top: 12px;
+    padding-top: 28px;
     box-shadow: 0 0 0 2px rgba(111, 58, 29, 0.2);
+    font-size: 35px;
 }
 
 form input::placeholder {
@@ -886,6 +891,7 @@ form textarea:focus {
     border: 1px solid rgb(131, 106, 43);
     padding-top: 12px;
     box-shadow: 0 0 0 2px rgba(111, 58, 29, 0.2);
+    font-size: 35px;
 }
 
 form button {

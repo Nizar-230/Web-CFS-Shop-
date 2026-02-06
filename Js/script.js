@@ -1,3 +1,4 @@
+//get select elemen html
 const spcTgl = document.querySelector(".btn-spc");
 const ctnSpc = document.querySelector(".container-spc");
 const closeSpc = document.querySelector(".close-spc");
