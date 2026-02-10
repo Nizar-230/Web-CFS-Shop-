@@ -630,27 +630,30 @@
 
     /* ======Search Bar Resposive======== */
     .search1{
-        padding: 39px;
-        font-size: 37px;
+        padding: 49px;
+        font-size: 46px;
         height: 80px;
-        width: 470px;
+        width: 490px;
 
     }
 
     .search1::placeholder{
-        font-size: 37px;
+        font-size: 40px;
     }
 
     .search1:focus{
-        padding: 29px;
-        font-size: 36px;
-        
+        padding: 49px;
+        font-size: 46px;
+        height: 80px;
+        width: 490px;
     }
 
     .btn-scr{
-        font-size: 30px;
-        width: 150px;
-        padding: 14px;
+        font-size: 40px;
+        width: 180px;
+        padding: 19px;
+        height: 100px;
+        text-align: center;
     }
 
     .frm{
