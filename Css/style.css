@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
-
+:root {
+    --bs-body-font-family: "Poppins", sans-serif;
+}
 
 body {
     background-color: #fff8f4;
-    font-family: "Poppins";
+
     overflow-x: hidden;
 }
 
@@ -42,8 +44,9 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin: 10px 8px;
+    margin: 18px 8px;
     position: relative;
+    margin-top: 32px;
 }
 
 nav ul li a {
@@ -51,6 +54,7 @@ nav ul li a {
     color: #ffff;
     font-size: 17px;
     font-weight: 500;
+
 }
 
 nav ul li a::after {
@@ -104,7 +108,7 @@ nav ul li a:hover {
 }
 
 .nav-side {
-    background-color: #765d37;
+    background-color: #6b4f27;
     height: 200vh;
     position: absolute;
     right: 0;
@@ -167,6 +171,14 @@ nav ul li a:hover {
     position: relative;
 }
 
+.spc-card:nth-child(odd){
+    background-color: #c18051;
+}
+
+/* .spc-card:nth-child(even){
+    background-color: #634018;
+} */
+
 .bdy-card::after {
     content: '';
     width: 91%;
@@ -188,7 +200,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    padding-top: 12px;
     padding-bottom: 9px;
 
 }
@@ -444,6 +456,7 @@ nav ul li a:hover {
     font-size: 26px;
     text-align: center;
     color: #5F1F08;
+    font-weight: 600;
 }
 
 .title::after {
@@ -486,7 +499,7 @@ nav ul li a:hover {
 }
 
 .deskrip-about h2 {
-    font-size: 32px;
+    font-size: 27px;
     font-weight: bold;
     color: #716A31;
     padding-bottom: 12px;
@@ -554,6 +567,7 @@ nav ul li a:hover {
     font-size: 26px;
     text-align: center;
     color: #5F1F08;
+    font-weight: 600;
 }
 
 #best-seller h2 span {
@@ -667,6 +681,7 @@ nav ul li a:hover {
     font-size: 26px;
     text-align: center;
     color: #551d0b;
+    font-weight: 600;
 }
 
 #menu h2 span {
@@ -767,7 +782,7 @@ nav ul li a:hover {
 }
 
 
-/* contact page */
+/*====== Contact Page ======*/
 #Contact-Us {
     position: relative;
     padding-bottom: 40px;
@@ -781,6 +796,7 @@ nav ul li a:hover {
     font-size: 26px;
     text-align: center;
     color: #551d0b;
+    font-weight: 600;
 }
 
 #Contact-Us h2 span {
@@ -912,7 +928,7 @@ form button:hover {
     ;
 }
 
-/* gallery */
+/*====== Gallery =======*/
 
 #Gallery {
     background-color: #f6b688;
@@ -926,6 +942,7 @@ form button:hover {
     font-size: 26px;
     text-align: center;
     color: #551d0b;
+    font-weight: 600;
 }
 
 #Gallery h2::after {
@@ -963,7 +980,7 @@ form button:hover {
 
 #Gallery {}
 
-/* footer */
+/*======= Footer ======*/
 
 footer {
     background-color: #624126;
@@ -989,6 +1006,7 @@ footer {
     color: rgb(244, 168, 61);
     font-size: 19px;
     padding-bottom: 3px;
+    font-weight: 600;
 }
 
 .logo-brand-footer p {
@@ -1005,6 +1023,7 @@ footer {
 .Menu-footer h3 {
     color: #f9cf11;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .Menu-footer a {
@@ -1030,6 +1049,8 @@ footer {
     margin-bottom: 10px;
     position: relative;
     left: 30px;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .Follow-Us-Footer i {
@@ -1053,6 +1074,8 @@ footer {
 
 .Contact-Footer h3 {
     color: #f9cf11;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .contact-foot i {
@@ -1066,3 +1089,39 @@ footer {
     color: #e0d6cc;
     font-size: 14px;
 }
+
+/*====== Search Bar ======*/
+
+.search1{
+    height: 50px;
+    background-color: #f3ece9;
+}
+
+.btn-scr{
+    position: relative;
+    bottom: 13px;
+    padding: 10px;
+    width: 80px;
+    background-color: #ca4e0c;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-scr:hover{
+    background-color: #9c4516;
+    color: #fff;
+}
+
+.contain-form{
+    margin-left: 42px;
+}
+
+.frm{
+    position: relative;
+    right: 93px;
+}
+
+.search1:focus{
+    background-color: #fff8f4;
+}
+ /* background-color: #ca4e0c; */

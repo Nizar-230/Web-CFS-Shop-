@@ -9,6 +9,9 @@ const cardMenu = document.querySelectorAll(".card-menu .deskrip h3");
 const btnMenu = document.querySelectorAll("#btn-buy");
 const containerSpc = document.querySelector(".bdy-card");
 const resultPrice = document.querySelector(".result-price");
+const btnSeacrh = document.querySelector(".btn-scr");
+const cardItem = document.querySelectorAll(".card-menu")
+const inputScr = document.querySelector(".search1");
 
 //toggle hamburger menu
 hbgMenu.addEventListener("click", () => {
@@ -178,5 +181,28 @@ function clearCard() {
         })
     })
 }
+
+inputScr.addEventListener("keyup", (e) => {
+    const getData = document.querySelector(".search1").value;
+    const getInputDataScr = getData.toLowerCase()
+    
+    cardItem.forEach(card => {
+        const getMenuCard = card.querySelector(".deskrip h3").textContent;
+        const getCardChange = getMenuCard.toLowerCase();
+
+        if (getCardChange.includes(getInputDataScr)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+
+    })
+
+    e.preventDefault();
+})
+
+
+
+
 
 
