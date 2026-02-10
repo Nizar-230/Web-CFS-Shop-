@@ -191,7 +191,7 @@ inputScr.addEventListener("keyup", (e) => {
         const getCardChange = getMenuCard.toLowerCase();
 
         if (getCardChange.includes(getInputDataScr)) {
-            card.style.display = "block";
+            card.style.display = "flex";
         } else {
             card.style.display = "none";
         }

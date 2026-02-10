@@ -610,8 +610,9 @@ nav ul li a:hover {
 
 .card {
     background-color: #5a3703;
+
     padding: 23px;
-    height: auto;
+    height:auto;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -651,7 +652,7 @@ nav ul li a:hover {
 }
 
 .feat-icon {
-    margin-top: auto;
+    margin-top: 60px;
 }
 
 .feat-icon i {
@@ -700,6 +701,7 @@ nav ul li a:hover {
     background-color: #5a3703;
     box-shadow: 0 6.4px 14.4px 0 rgb(0 0 0 / 13%), 0 1.2px 3.6px 0 rgb(0 0 0 / 11%);
     padding: 23px;
+    min-height: 420px;
     height: auto;
     width: 80%;
     display: flex;
@@ -740,7 +742,7 @@ nav ul li a:hover {
 }
 
 .feat-icon {
-    margin-top: auto;
+  margin-top: auto;
 }
 
 .feat-icon i {
